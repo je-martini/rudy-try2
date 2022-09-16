@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+#bannerSection{
+    background-color: #00ffff;
+    padding: 5px;
+}
+
+#bannerDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFDD0;
+    padding: 0 200px;
+    border-radius: 40px;
+ 
+}
+
+.info{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.mainInfo{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainInfo h3{
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.mainInfo h2{
+    font-size: 42px;
+}
+
+.storeButton{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+.storeButton button{
+
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    border: 2px solid #111;
+    border-radius: 5px;
+    background-color: #FFF;
+    padding: 10px 20px;cursor: pointer;
+    transition: 0.2s;
+
+}
+
+.storeButton button:hover{
+    background-color: #00ffff;
+    transform: rotate(-20deg);
+}
+
+.image{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 45px;
+    margin: 10px;
+}
+
+.mainImage{
+    width: 450px;
+}
+
+
+/* ============ MEDIA SCREEN =============== */
+
+@media screen and (max-width: 400px) {
+
+    #bannerSection{
+        width: 100%;
+    }
+
+    #bannerDiv{
+
+        display: block;
+        justify-content: space-around;
+        background-color: #FFFDD0;
+        padding: 0 200px;
+        border-radius: 40px;
+        width: 50%;
+     
+    }
+
+    .mainInfo h3{
+        font-size: 12px;
+    }
+
+    .mainInfo h2{
+        font-size: 20px;
+    }
+
+    .mainImage{
+        width: 100%;
+    }
+    
+}
