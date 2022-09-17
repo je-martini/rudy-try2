@@ -17,17 +17,14 @@ header{
 }
 
 
-
-
 .left_section_nav_header{
     border: 1px solid black;
 }
+
 .img_left_section_nav_header{
     height: 60px;
     width: 60px;
 }
-
-
 
 .center_section_nav_header{
     border: 1px solid black;
@@ -35,6 +32,7 @@ header{
     justify-content: center;
     align-items: center;
 }
+
 .a_center_section_nav_header {
     font-weight: bolder;
     margin: 10px 10px;
@@ -42,9 +40,6 @@ header{
     color: black;
 
 }
-
-
-
 
 .rigth_section_nav_header{
     border: 1px solid black;
@@ -58,7 +53,11 @@ header{
 }
 
 @media (min-width: 420px) {
+
     header {
         font-size: 20px;
+
     }
+
+
 }

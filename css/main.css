@@ -19,31 +19,66 @@ body {
   background-color: cornflowerblue;
   border-radius: 10px;
   display: flex;
+  justify-content: space-around;
 }
 
-.info{
-    border: 1px solid red;
-    width: 50%;
+.info {
+  border: 1px solid red;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.mainInfo h3{
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 900;
-    padding: 5px;
+.mainInfo {
+  border: 1px solid red;
 }
 
-.storeButton{
-    border: 1px solid pink;
-    display: flex;
-    padding: 10px;
+.mainInfo h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
+  padding: 5px;
+  font-size: 20px;
+  margin: 5px;
 
 }
 
-.storeButton button{
-    cursor: pointer;
-    padding: 5px 15px;
+.mainInfo h3 span{
+    background: linear-gradient(white, greenyellow, white);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
 
+.mainInfo h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+.storeButton {
+  border: 1px solid pink;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.storeButton button {
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px 25px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  background-color: rgb(153, 226, 116);
+  transition: 0.2s;
+  font-weight: 900;
+  font-size: 15px;
+  box-shadow: 5px 5px rgb(44, 43, 43);
+}
+
+.storeButton button:hover {
+  border: 1px solid black;
+  background-color: #0ff;
+  transform: rotate(-20deg);
 }
 
 .image {
@@ -55,7 +90,7 @@ body {
   width: 100%;
 }
 
-/* ===== MOBILE SCREEN ==== */
+/* ===== MOBILE SCREEN ===== */
 
 @media screen and (max-width: 400px) {
   #bannerSection {
@@ -70,19 +105,23 @@ body {
     display: block;
   }
 
-  .info{
+  .info {
     width: 75%;
   }
 
+  .mainInfo h2 {
+    font-size: 25px;
+  }
 
   .mainInfo h3 {
+    font-size: 15px;
     border: 1px solid red;
     text-align: center;
     font-weight: 900;
     text-decoration: underline;
   }
 
-  .image{
+  .image {
     width: 66%;
   }
 
