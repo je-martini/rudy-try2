@@ -1,2 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
+* {
+  margin: auto;
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  border: 1px solid red;
+}
+
+#bannerSection {
+  background-color: #0ff;
+  padding: 5px;
+}
+
+#bannerDiv {
+  padding: 10px;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  display: flex;
+}
+
+.info{
+    border: 1px solid red;
+    width: 50%;
+}
+
+.mainInfo h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.storeButton{
+    border: 1px solid pink;
+    display: flex;
+    padding: 10px;
+
+}
+
+.storeButton button{
+    cursor: pointer;
+    padding: 5px 15px;
+
+}
+
+.image {
+  border: solid 1px red;
+  width: 33%;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* ===== MOBILE SCREEN ==== */
+
+@media screen and (max-width: 400px) {
+  #bannerSection {
+    background-color: greenyellow;
+    padding: 5px;
+  }
+
+  #bannerDiv {
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .info{
+    width: 75%;
+  }
+
+
+  .mainInfo h3 {
+    border: 1px solid red;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  .image{
+    width: 66%;
+  }
+
+  .image img {
+    width: 100%;
+  }
+}
