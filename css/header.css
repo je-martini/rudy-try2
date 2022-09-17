@@ -32,7 +32,7 @@ header{
 
 
 .center_section_nav_header{
-    order: 1;
+    order: 3;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ header{
 
 
 .rigth_section_nav_header{
-    order: 3;
+    order: 1;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -84,7 +84,10 @@ header{
         order: 2;
     }
     .button_center_section_nav_header{
-        display: block;
+        display: none;
+    }
+    .a_center_section_nav_header{
+        display: flex;
     }
     .rigth_section_nav_header{
         order: 3;
