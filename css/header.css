@@ -1,11 +1,7 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 62.5%;
 }
-
-
 
 header{
     display: flex;
@@ -63,6 +59,6 @@ header{
 
 @media (min-width: 420px) {
     header {
-        font-size: 8rem;
+        font-size: 20px;
     }
 }
