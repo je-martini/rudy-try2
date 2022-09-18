@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
+ 
+/* Blocks that should appear alone sometimes */
+.inactive{
+    display: none;
+}
 
 header{
     width: 100%;
     display: flex;
-    background-color: black;
+    flex-direction: column;
 }
 
 
@@ -15,7 +20,7 @@ header{
     width:  100%;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    background-color: black;
 }
 
 
@@ -44,8 +49,16 @@ header{
     border: none;
     background-color: transparent;
 }
+.a_container_button div {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 20px 50px;
+    line-height: 48px;
+}
 .a_button_center_section_nav_header{
-    display: none;
+    color: #4e9f3d;
+    text-decoration: none;
 }
 .a_center_section_nav_header {
     font-weight: bolder;
