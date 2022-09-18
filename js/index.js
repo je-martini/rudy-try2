@@ -1,3 +1,2 @@
-const hello = 1; 
+import header from './header';
 
-let retro = 2; 
