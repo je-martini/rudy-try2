@@ -5,9 +5,7 @@
   font-family: "Oxygen", sans-serif;
 }
 
-body {
-  border: 1px solid red;
-}
+/* ==================== BANNER SECTION ========================== */
 
 #bannerSection {
   background-color: #0ff;
@@ -23,7 +21,6 @@ body {
 }
 
 .info {
-  border: 1px solid red;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -31,7 +28,6 @@ body {
 }
 
 .mainInfo {
-  border: 1px solid red;
 }
 
 .mainInfo h3 {
@@ -41,13 +37,12 @@ body {
   padding: 5px;
   font-size: 20px;
   margin: 5px;
-
 }
 
-.mainInfo h3 span{
-    background: linear-gradient(white, greenyellow, white);
-    padding: 5px 10px;
-    border-radius: 10px;
+.mainInfo h3 span {
+  background: linear-gradient(white, greenyellow, white);
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 .mainInfo h2 {
@@ -56,7 +51,6 @@ body {
 }
 
 .storeButton {
-  border: 1px solid pink;
   display: flex;
   padding: 15px;
   justify-content: center;
@@ -82,7 +76,6 @@ body {
 }
 
 .image {
-  border: solid 1px red;
   width: 33%;
 }
 
@@ -102,7 +95,9 @@ body {
     padding: 10px;
     background-color: cornflowerblue;
     border-radius: 10px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .info {
@@ -115,7 +110,6 @@ body {
 
   .mainInfo h3 {
     font-size: 15px;
-    border: 1px solid red;
     text-align: center;
     font-weight: 900;
     text-decoration: underline;
@@ -128,4 +122,96 @@ body {
   .image img {
     width: 100%;
   }
+}
+
+/* ===== TABLET SCREEN ===== */
+
+@media screen and (max-width: 800px) {
+
+  #bannerSection {
+    background-color: greenyellow;
+    padding: 5px;
+  }
+
+  #bannerDiv {
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    width: 75%;
+  }
+
+  .mainInfo h2 {
+    font-size: 25px;
+  }
+
+  .mainInfo h3 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+  }
+
+  .image {
+    width: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image img {
+    width: 50%;
+  }
+}
+
+/* ============================================================================================ */
+
+/* ============================= INTRO SECTION ============================ */
+
+.introDiv{
+    display: flex;
+}
+
+.rudyIntroDiv{
+    border: solid 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rudyText{
+    border: 1px solid red;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rudyText h2{
+    padding: 20px 0;
+}
+
+.rudyImage{
+    width: 30%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.rudyImage img{
+    width: 100%;
+}
+
+.jessieIntroDiv{
+    border: solid 1px red;
+
+}
+
+.jessieImage img{
+    width: 50%;
 }
