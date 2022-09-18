@@ -1,4 +1,4 @@
-// to show the movile_menu
+// to show the mobile_menu
 const button_center_section_nav_header = document.querySelector('.button_center_section_nav_header');
 const a_container_button = document.querySelector('.a_container_button');
 
