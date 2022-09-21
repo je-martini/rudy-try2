@@ -7,3 +7,4 @@ button_center_section_nav_header.addEventListener('click', toggleMobileMenu);
 function toggleMobileMenu () {
     a_container_button.classList.toggle('inactive');
 }
+
