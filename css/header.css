@@ -24,15 +24,18 @@ header{
 }
 
 
+
+
 .left_section_nav_header{
     border: 1px solid black;
     order: 2;
 }
-
 .img_left_section_nav_header{
     height: 60px;
     width: 60px;
 }
+
+
 
 .center_section_nav_header{
     order: 3;
@@ -92,7 +95,6 @@ header{
 @media (min-width: 600px) {
     header {
         font-size: 20px;
-
     }
     .left_section_nav_header{
         order: 1;
